@@ -8,4 +8,5 @@ body {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  background-color: rgba(17,17,17,16);
 }

@@ -22,23 +22,22 @@
 .section {
   box-sizing: border-box;
   width: 100%;
-  /* width: 1263px; */
   position: relative;
   top: -80px;
   display: flex;
   flex-direction: row;
   gap: 40px;
-  background-color: rgba(17,17,17,16);
   padding: 35px 35px 10px 35px;
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
+/* 스크롤바 관련 */
 .section::-webkit-scrollbar {
-  /* display: none; */
   width: 5px;
   height: 8px;
-  background-color: #7d7d7d; /* 또는 트랙에 추가한다 */
+  background-color: #7d7d7d;
 }
 .section::-webkit-scrollbar-thumb {
   background: #000;
