@@ -1,3 +1,5 @@
+
+/* 배너 */
 .banner_img {
   width: 100%;
   height: 330px;
@@ -14,6 +16,42 @@
   background-size: cover;
   background-position: center, center;
   /* https://coding-with-jina.tistory.com/43 배경화면 점점 흐리게 */
+  justify-content: center;
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.banner_title {
+  color: #e8e8e8;
+  font-size: 35px;
+  font-family: 'Rubik', sans-serif;
+  /* font-weight: 700; */
+}
+.banner_btns {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 15px 0;
+}
+.banner_btn {
+  background-color: rgba(99, 99, 99, 0.5);
+  border: none;
+  border-radius: 2px;
+  width: 80px;
+  height: 25px;
+  color: #e8e8e8;
+  cursor: pointer;
+}
+
+.banner_intro {
+  color: #e8e8e8;
+  opacity: 0.8;
+  font-size: 15px;
+  max-width: 400px;
+  text-overflow: ellipsis;
+  font-family: 'Roboto', sans-serif;
 }
 
 
