@@ -1,10 +1,8 @@
 .banner_img {
   width: 100%;
   height: 330px;
-  /* background-color: yellow; */
-  position: fixed;
+  position: relative;
   top: -80px;
-  /* background-image: url('../assets/images/main_banner.jpg'); */
   background-image: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.9) 10%,
@@ -18,9 +16,52 @@
   /* https://coding-with-jina.tistory.com/43 배경화면 점점 흐리게 */
 }
 
-.banner_img>img {
-  border: 2px solid red;
+
+/* section */
+
+.section_netflix_origin {
+  box-sizing: border-box;
   width: 100%;
-  position: fixed;
+  /* width: 1263px; */
+  position: relative;
   top: -80px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  background-color: rgba(17,17,17,16);
+  padding: 35px 35px 10px 35px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.section_netflix_origin::-webkit-scrollbar {
+  /* display: none; */
+  width: 5px;
+  height: 8px;
+  background-color: #7d7d7d; /* 또는 트랙에 추가한다 */
+}
+.section_netflix_origin::-webkit-scrollbar-thumb {
+  background: #000;
+}
+
+.section_netflix_origin_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+}
+
+.section_netflix_origin_title p {
+  font-family: 'Rubik', sans-serif;
+  color: #e8e8e8;
+}
+
+.section_netflix_origin_post {
+  width: 130px;
+}
+
+.section_netflix_origin_post img {
+  /* 여기서 width: 100%로 하면 이미지의 크기가 작아진다.(gap:40px을 맞추기 위해서인듯?) -> 이유를 모르겠다! */
+
+  width: 130px; 
 }
