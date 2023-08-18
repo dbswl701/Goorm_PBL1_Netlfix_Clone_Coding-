@@ -19,7 +19,7 @@
 
 /* section */
 
-.section_netflix_origin {
+.section {
   box-sizing: border-box;
   width: 100%;
   /* width: 1263px; */
@@ -34,33 +34,33 @@
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
-.section_netflix_origin::-webkit-scrollbar {
+.section::-webkit-scrollbar {
   /* display: none; */
   width: 5px;
   height: 8px;
   background-color: #7d7d7d; /* 또는 트랙에 추가한다 */
 }
-.section_netflix_origin::-webkit-scrollbar-thumb {
+.section::-webkit-scrollbar-thumb {
   background: #000;
 }
 
-.section_netflix_origin_title {
+.section_title {
   position: absolute;
   top: 0;
   left: 0;
   font-size: 20px;
 }
 
-.section_netflix_origin_title p {
+.section_title p {
   font-family: 'Rubik', sans-serif;
   color: #e8e8e8;
 }
 
-.section_netflix_origin_post {
+.section_post {
   width: 130px;
 }
 
-.section_netflix_origin_post img {
+.section_post img {
   /* 여기서 width: 100%로 하면 이미지의 크기가 작아진다.(gap:40px을 맞추기 위해서인듯?) -> 이유를 모르겠다! */
 
   width: 130px; 
